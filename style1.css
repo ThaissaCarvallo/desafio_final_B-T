@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url("img/capa2.jpg");
+  background-repeat: repeat;
+  padding: 50px;
+}
+
+.header h1 {
+  font-size: 4em;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.subtitulo {
+  font-size: 2em;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.menu {
+  padding-left: 375px;
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.25em;
+  color: black;
+}
+
+.menu a {
+  margin-left: 25px;
+  display: block;
+  padding: 15px;
+}
+
+.menu a:link {
+  color: grey;
+}
+
+.menu a:visited {
+  color: darkgray;
+}
+
+.nov {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: white;
+  margin-top: 50px;
+}
+
+body {
+  background-image: url("img/capa5.jpg");
+  background-repeat: repeat;
+}
+
+img {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+  width: 250px;
+  height: 250px;
+}
+
+.nov h2 {
+  font-size: 4em;
+  text-align: center;
+  color: white;
+  background-color: black;
+
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+.baixo {
+  font-size: 1.2em;
+  color: white;
+  background-color: black;
+
+}
+
+/*layout*/
+
+.nov>div:nth-child(n+5) {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nov>div:nth-child(n+1) {
+  border: 3px dashed black;
+}
+
+.contato {
+  border: 5px dashed black;
+  background-color: white;
+  color: black;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: white;
+
+}
+
+.contato h2 {
+  padding-top: 10px;
+  padding-left: 10px;
+  background: black;
+  color: white;
+  padding-bottom: 10px;
+  font-size: 2.0em;
+}
+
+.contato legend {
+  font-size: 1.5em;
+}
+
+.contato fieldset {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.contato input {
+  font-size: 1.5em;
+  background: white;
+  color: black;
+
+}
+
+.mensagem input {
+  height: 200px;
+}
