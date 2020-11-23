@@ -1,0 +1,47 @@
+{
+	"lang":"pt-BR",
+	"dir":"ltr",
+	"name":"Portifolio de Bianca e Thaissa",
+	"short_name":"PBT",
+	"start_url":"https://github.com/ThaissaCarvallo/desafio_final_B-T",
+	"display":"minimal-ui",
+	"scope":"desafio_final_B-T",
+	"background_color":"orange",
+	"theme_color":"blue",
+	"orientation":"portrait",
+	"description":"Site de notícias para baixar e compartilhar",
+	"icons": [
+		{
+		"src":"imgs/icon.ico",
+		"size":"16x16",
+		"type":"image/icon"
+		},
+		{
+		"src":"imgs/icon1.ico",
+		"size":"16x16",
+		"type":"image/icon"
+		},
+		{
+		"src":"imgs/icon2.ico",
+		"size":"16x16",
+		"type":"image/icon"
+		},
+		{
+		"src":"imgs/icon3.ico",
+		"size":"16x16",
+		"type":"image/icon"
+		},
+		{
+		"src":"imgs/icon4.ico",
+		"size":"16x16",
+		"type":"image/icon"
+		},
+		{
+		"src":"imgs/icon512x512.png",
+		"size":"512x512",
+		"type":"image/png"
+		},
+	],
+	"related_applications":[],
+	"prefer_related_applications": false,
+}
