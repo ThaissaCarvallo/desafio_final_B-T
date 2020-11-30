@@ -10,6 +10,8 @@
 	"theme_color":"blue",
 	"orientation":"portrait",
 	"description":"Site de projetos para baixar e compartilhar",
+	"related_applications":[],
+	"prefer_related_applications": false,
 	"icons": [
 		{
 		"src":"imgs/icon.ico",
@@ -44,9 +46,7 @@
 		{
 		"src":"imgs/icon512x512.png",
 		"size":"512x512",
-		"type":"image/png",
-		},
-	],
-	"related_applications":[],
-	"prefer_related_applications": false,
+		"type":"image/png"
+		}
+	]
 }
