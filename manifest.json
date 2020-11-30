@@ -16,31 +16,31 @@
 		{
 		"src":"imgs/icon.ico",
 		"size":"16x16",
-		"type":"image/icon",
+		"type":"imgs/icon",
 		"density":"0.75"
 		},
 		{
-		"src":"imgs/icon1.ico",
+		"src":"imgs/icon1.png",
 		"size":"16x16",
-		"type":"image/icon",
+		"type":"image/png",
 		"density":"1.0"
 		},
 		{
-		"src":"imgs/icon2.ico",
+		"src":"imgs/icon2.png",
 		"size":"16x16",
-		"type":"image/icon",
+		"type":"image/png",
 		"density":"1.5"
 		},
 		{
-		"src":"imgs/icon3.ico",
+		"src":"imgs/icon3.png",
 		"size":"16x16",
-		"type":"image/icon",
+		"type":"image/png",
 		"density":"2.0"
 		},
 		{
-		"src":"imgs/icon4.ico",
+		"src":"imgs/icon4.png",
 		"size":"16x16",
-		"type":"image/icon",
+		"type":"image/png",
 		"density":"3.0"
 		},
 		{
