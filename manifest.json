@@ -14,32 +14,37 @@
 		{
 		"src":"imgs/icon.ico",
 		"size":"16x16",
-		"type":"image/ico"
+		"type":"image/ico",
+		"density":"0.75"
 		},
 		{
 		"src":"imgs/icon1.ico",
 		"size":"16x16",
-		"type":"image/ico"
+		"type":"image/ico",
+		"density":"1.0"
 		},
 		{
 		"src":"imgs/icon2.ico",
 		"size":"16x16",
-		"type":"image/ico"
+		"type":"image/ico",
+		"density":"1.5"
 		},
 		{
 		"src":"imgs/icon3.ico",
 		"size":"16x16",
-		"type":"image/ico"
+		"type":"image/ico",
+		"density":"2.0"
 		},
 		{
 		"src":"imgs/icon4.ico",
 		"size":"16x16",
-		"type":"image/ico"
+		"type":"image/ico",
+		"density":"3.0"
 		},
 		{
 		"src":"imgs/icon512x512.png",
 		"size":"512x512",
-		"type":"image/png"
+		"type":"image/png",
 		},
 	],
 	"related_applications":[],
