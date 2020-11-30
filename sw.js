@@ -1,4 +1,4 @@
-const cache Name = "album-v1"
+const cache Name = "album-v1.1"
 const files = [
 		'/desafio_final_B-T/',
 		'/desafio_final_B-T/index.html',
@@ -24,6 +24,7 @@ const files = [
 ]
 
 self.addEvenListener('install', function(evt){
+	console.log("install sw");
 	evt.waitUntil(
 		caches.open(cacheName).then(function(cache){
 		console.log('colocando arquivos no cache')
@@ -36,15 +37,24 @@ self.addEvenListener('install', function(evt){
 
 self.addEvenListener('activate', function(evt){
 	console.log("activate sw");
+	evt.waitUntil(
+		chaches.keys().then(function(keys){
+			return.Promise.all(
+				keys
+				.filter( key => key !== cacheName)
+				.map(key => caches.delete(key))
+			)
+		})
+	)
 
 })
 
 
 self.addEvenListener('fetch', function(evt){
 	console.log("fetch sw");
-	evt.responseWidth(
+	evt.respondWidth(
 		caches.match(evt.request).then(function(res){
 		return res || fetch(evt.request)
 	})
-   )	
+   )
 })
