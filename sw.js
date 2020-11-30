@@ -18,7 +18,7 @@ const files = [
 		'https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js',
 		'https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js',
 		'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons',
-		'https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css'
+		'https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css',
 
 
 ]
