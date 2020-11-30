@@ -16,31 +16,31 @@
 		{
 		"src":"imgs/icon.ico",
 		"size":"16x16",
-		"type":"image/ico",
+		"type":"image/icon",
 		"density":"0.75"
 		},
 		{
 		"src":"imgs/icon1.ico",
 		"size":"16x16",
-		"type":"image/ico",
+		"type":"image/icon",
 		"density":"1.0"
 		},
 		{
 		"src":"imgs/icon2.ico",
 		"size":"16x16",
-		"type":"image/ico",
+		"type":"image/icon",
 		"density":"1.5"
 		},
 		{
 		"src":"imgs/icon3.ico",
 		"size":"16x16",
-		"type":"image/ico",
+		"type":"image/icon",
 		"density":"2.0"
 		},
 		{
 		"src":"imgs/icon4.ico",
 		"size":"16x16",
-		"type":"image/ico",
+		"type":"image/icon",
 		"density":"3.0"
 		},
 		{
