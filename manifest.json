@@ -14,33 +14,33 @@
 	"prefer_related_applications": false,
 	"icons": [
 		{
-		"src":"imgs/icon.ico",
+		"src":"imgs/inco.jpeg",
 		"size":"16x16",
-		"type":"imgs/icon",
+		"type":"image/jpeg",
 		"density":"0.75"
 		},
 		{
-		"src":"imgs/icon1.png",
+		"src":"imgs/inco.jpeg",
 		"size":"16x16",
-		"type":"image/png",
+		"type":"image/jpeg",
 		"density":"1.0"
 		},
 		{
-		"src":"imgs/icon2.png",
+		"src":"imgs/inco.jpeg",
 		"size":"16x16",
-		"type":"image/png",
+		"type":"image/jpeg",
 		"density":"1.5"
 		},
 		{
-		"src":"imgs/icon3.png",
+		"src":"imgs/inco.jpeg",
 		"size":"16x16",
-		"type":"image/png",
+		"type":"image/jpeg",
 		"density":"2.0"
 		},
 		{
-		"src":"imgs/icon4.png",
+		"src":"imgs/inco.jpeg",
 		"size":"16x16",
-		"type":"image/png",
+		"type":"image/jpeg",
 		"density":"3.0"
 		},
 		{
