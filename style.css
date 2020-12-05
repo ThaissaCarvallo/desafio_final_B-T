@@ -79,7 +79,7 @@ h2{
   border-top: 7px double orangered;
 }
 
-.nov {
+/*.nov {
   margin-left: 120px;
   margin-right: 120px;
   background-color: steelblue;
@@ -120,14 +120,14 @@ h2{
 }
 .nov div{
   border: 3px double coral;
-}
+}*/
 
 /*layout*/
 
-.nov>div:nth-child(n+1) {
+/*.nov>div:nth-child(n+1) {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
+}*/
 
 .contato {
   margin-left: 70px;
