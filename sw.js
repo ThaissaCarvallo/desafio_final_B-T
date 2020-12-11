@@ -38,8 +38,8 @@ self.addEvenListener('install', function(evt){
 self.addEvenListener('activate', function(evt){
 	console.log("activate sw");
 	evt.waitUntil(
-		chaches.keys().then(function(keys){
-			return.Promise.all(
+		caches.keys().then(function(keys){
+			return Promise.all(
 				keys
 				.filter( key => key !== cacheName)
 				.map(key => caches.delete(key))
