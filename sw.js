@@ -23,7 +23,7 @@ const files = [
 
 ]
 
-self.addEvenListener('install', function(evt){
+self.addEventListener('install', function(evt){
 	console.log("install sw");
 	evt.waitUntil(
 		caches.open(cacheName).then(function(cache){
@@ -35,7 +35,7 @@ self.addEvenListener('install', function(evt){
 })
 
 
-self.addEvenListener('activate', function(evt){
+self.addEventListener('activate', function(evt){
 	console.log("activate sw");
 	evt.waitUntil(
 		caches.keys().then(function(keys){
@@ -50,7 +50,7 @@ self.addEvenListener('activate', function(evt){
 })
 
 
-self.addEvenListener('fetch', function(evt){
+self.addEventListener('fetch', function(evt){
 	console.log("fetch sw");
 	evt.respondWidth(
 		caches.match(evt.request).then(function(res){
