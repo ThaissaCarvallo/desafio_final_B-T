@@ -1,4 +1,4 @@
-const cacheName = "album-v1.1"
+const cacheName = "album-v1.3"
 const files = [
 		'/desafio_final_B-T/',
 		'/desafio_final_B-T/index.html',
@@ -18,9 +18,7 @@ const files = [
 		'https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js',
 		'https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js',
 		'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons',
-		'https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css',
-
-
+		'https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css'
 ]
 
 self.addEventListener('install', function(evt){
@@ -52,7 +50,7 @@ self.addEventListener('activate', function(evt){
 
 self.addEventListener('fetch', function(evt){
 	console.log("fetch sw");
-	evt.respondWidth(
+	evt.respondWith(
 		caches.match(evt.request).then(function(res){
 		return res || fetch(evt.request)
 	})
