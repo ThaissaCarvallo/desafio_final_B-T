@@ -49,9 +49,9 @@
 		"density":"4.0"
 		},
 		{
-		"src":"imgs/512x512.jpg",
+		"src":"imgs/512x512.png",
 		"size":"512x512",
-		"type":"image/jpg"
+		"type":"image/png"
 		}
 	],
 
